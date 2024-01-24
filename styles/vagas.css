@@ -1,0 +1,45 @@
+.vagas{
+    margin: 0 auto;
+    width: 768px;
+}
+
+.vaga{
+    color: var(--cinza-900);
+    margin: 1em;
+
+/* Text xl/Medium */
+
+font-size: 1.25em;
+font-weight: 500;
+line-height: 30px; /* 150% */
+}
+
+.card{
+    margin: 1.5em;
+    padding: 24px 24px 28px 24px;
+    border-radius: 16px;
+    border: 1px solid var(--cinza-200);
+    background: var(--branco);
+}
+
+.vaga-titulo{
+    display: inline-block;
+    color: var(--cinza-900);
+    margin-bottom: 1em;
+
+/* Text lg/Medium */
+font-size: 1.125em;
+font-weight: 500;
+line-height: 28px;
+}
+
+.carga-horaria, .salario{ 
+    display: inline-block;
+    margin-right: 1.5em;
+    color: var(--cinza-500);
+
+/* Text md/Medium */
+font-size: 1em;
+font-weight: 500;
+line-height: 24px; /* 150% */
+}

@@ -1,0 +1,42 @@
+.procurando{
+    text-align: center;
+}
+
+.procurando span{
+    color: var(--vermelho);
+    padding: 0 .5em;
+
+    /* Text sm/Medium */
+    font-size: .75em;
+    font-weight: 500;
+    line-height: 1.25em; /* 142.857% */
+    border-radius: 16px;
+    background: var(--procurando-bg-texto);
+}
+
+.procurando h1{
+    color: var(--cinza-900);
+    margin: .5em;
+
+    /* Display md/Semibold */
+    font-size: 2.25em;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.72px;
+}
+
+.procurando p{
+    color: var(--cinza-500);
+
+/* Text xl/Normal */
+
+font-size: 1.25em;
+font-weight: 400;
+line-height: 30px; /* 150% */
+}
+
+.procurando img{
+    /* width: 1216px; */
+    margin: 4em 0;
+    background: var(--procurando-bg-imagem) 50% / cover no-repeat;
+}

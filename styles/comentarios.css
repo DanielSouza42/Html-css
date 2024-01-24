@@ -1,0 +1,56 @@
+.comentarios{
+    border-radius: 16px;
+    background: var(--comentarios-bg);
+    text-align: center;
+    width: 1088px;
+    margin: 0 auto 4em auto;
+    padding: 4em;
+}
+
+.comentarios-titulo{
+    display: block;
+    color: var(--vermelho);
+    padding: 1em;
+/* Text sm/Semibold */
+
+font-size: .875em;
+font-weight: 600;
+line-height: 20px; /* 142.857% */
+}
+
+.comentarios-comentario{
+    display: block;
+    color: var(--cinza-900);
+
+
+/* Display md/Medium */
+font-size: 2.125em;
+font-weight: 500;
+line-height: 44px; /* 122.222% */
+letter-spacing: -0.72px;
+}
+
+.comentarios img{
+    width: 56px;
+    height: 56px;
+    padding: 1em;
+}
+
+.colaborador-nome{
+    display: block;
+    color: var(--cinza-900);
+/* Text md/Medium */
+font-size: 1em;
+font-weight: 500;
+line-height: 24px; /* 150% */
+}
+
+.colaborador-profissao{
+    color: var(--cinza-500);
+
+/* Text sm/Normal */
+
+font-size: .825em;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+}
